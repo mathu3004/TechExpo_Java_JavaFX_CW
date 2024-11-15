@@ -1,0 +1,79 @@
+
+*********** AI Projects ***********
+
+---Project Details---
+
+Project ID: 5
+Project Name: Tigers
+Category: AI
+Team Members: Pooja, Jaya, Gaya
+Brief Description: It is based on ai project. We did well.
+Country: Canada
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/Tigers.png
+
+---Project Details---
+
+Project ID: 22
+Project Name: Serafims
+Category: AI
+Team Members: Dina, Jina, Sana
+Brief Description: Our project is ai related. We did well.
+Country: Pakistan
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/Serafims.jpg
+
+
+*********** ML Projects ***********
+
+---Project Details---
+
+Project ID: 3
+Project Name: Sea
+Category: ML
+Team Members: Jule, Pony, Kaja
+Brief Description: It is realated to ml.
+Country: Uk
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/IMG_8927.JPG
+
+---Project Details---
+
+Project ID: 12
+Project Name: Bless
+Category: ML
+Team Members: Mala, Kala, Vimala
+Brief Description: It is an ml projects.
+Country: Usa
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/BLESS.jpg
+
+---Project Details---
+
+Project ID: 19
+Project Name: Ftgh
+Category: ML
+Team Members: Dcfgv, Dcfvg, Frtg
+Brief Description: Rdtfyghu. Drfghb
+Country: Sdxcfgyh
+Logo URL: file:/C:/Users/DELL/Pictures/139___01/IMG_8268.JPG
+
+
+*********** RT Projects ***********
+
+---Project Details---
+
+Project ID: 1
+Project Name: Aryan
+Category: RT
+Team Members: Rama, Pama, Waja
+Brief Description: It is based on rt projects.
+Country: India
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/ARYANKHAN.jpg
+
+---Project Details---
+
+Project ID: 18
+Project Name: Encode
+Category: RT
+Team Members: Raja, Maja, Kaja
+Brief Description: Our project is related to rt. Thank you.
+Country: Scotland
+Logo URL: file:/C:/Users/DELL/IdeaProjects/CM1601_2410212_20233136/src/main/resources/Images/ENCODE.jpg
+

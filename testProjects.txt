@@ -1,0 +1,39 @@
+
+*********** AI Projects ***********
+
+---Project Details---
+
+Project ID: 1
+Project Name: AI Project
+Category: AI
+Team Members: Member1, Member2, Member3
+Brief Description: AI Description
+Country: CountryA
+Logo URL: http://example.com/ai_logo.png
+
+
+*********** ML Projects ***********
+
+---Project Details---
+
+Project ID: 2
+Project Name: ML Project
+Category: ML
+Team Members: Member4, Member5, Member6
+Brief Description: ML Description
+Country: CountryB
+Logo URL: http://example.com/ml_logo.png
+
+
+*********** RT Projects ***********
+
+---Project Details---
+
+Project ID: 3
+Project Name: RT Project
+Category: RT
+Team Members: Member7, Member8, Member9
+Brief Description: RT Description
+Country: CountryC
+Logo URL: http://example.com/rt_logo.png
+
