@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="656.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.UpdateProjectDetails">
+   <children>
+      <VBox layoutX="5.0" layoutY="5.0" prefHeight="46.0" prefWidth="729.0">
+         <children>
+            <Pane prefHeight="46.0" prefWidth="628.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="253.0" layoutY="31.0" stroke="#ae0202" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Project Details">
+                     <font>
+                        <Font name="Times New Roman Bold Italic" size="24.0" />
+                     </font>
+                  </Text>
+               </children></Pane>
+         </children></VBox>
+      <Text layoutX="35.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Project ID to check: ">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID:  ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Text>
+      <TextField fx:id="proID" layoutX="154.0" layoutY="107.0" promptText="Project ID" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="380.0" layoutY="106.0" mnemonicParsing="false" onAction="#onClickCheck" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #6E260E;" text="Check" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Button>
+      <Separator layoutX="27.0" layoutY="188.0" prefHeight="16.0" prefWidth="685.0" />
+      <Button layoutX="323.0" layoutY="472.0" mnemonicParsing="false" onAction="#onClickUpdate" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #6E260E;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="35.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the updated details:">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="updateDetails" layoutX="60.0" layoutY="362.0" prefHeight="46.0" prefWidth="212.0" promptText="Brief Description: " style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></TextArea>
+      <Button layoutX="591.0" layoutY="282.0" mnemonicParsing="false" onAction="#onClickBrowse" style="-fx-background-color: #6E260E;" text="Browse the logo.." textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="logoImageView" fitHeight="150.0" fitWidth="200.0" layoutX="491.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="48.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project Name:  ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="updateName" layoutX="60.0" layoutY="283.0" prefHeight="26.0" prefWidth="150.0" promptText="ProName:" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="235.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category: ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="updateCategory" layoutX="262.0" layoutY="282.0" prefHeight="26.0" prefWidth="79.0" promptText="Category:" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="363.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="updateCountry" layoutX="380.0" layoutY="282.0" prefHeight="26.0" prefWidth="159.0" promptText="Country:" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="46.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description: ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="302.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Members: ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="updateMembers" layoutX="329.0" layoutY="362.0" prefHeight="46.0" prefWidth="200.0" promptText="Team Members: " style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextArea>
+      <Text layoutX="581.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logo: ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="updateLogo" layoutX="580.0" layoutY="337.0" prefHeight="78.0" prefWidth="139.0" promptText="LogoUrl:" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="alertUpdate" layoutX="46.0" layoutY="159.0">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

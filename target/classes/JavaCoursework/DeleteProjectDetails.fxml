@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.DeleteProjectDetails">
+   <children>
+      <VBox layoutX="5.0" layoutY="6.0" prefHeight="52.0" prefWidth="588.0">
+         <children>
+            <Pane prefHeight="52.0" prefWidth="588.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="182.0" layoutY="33.0" stroke="#b70000" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Project Details">
+                     <font>
+                        <Font name="Times New Roman Bold Italic" size="24.0" />
+                     </font>
+                  </Text>
+               </children></Pane>
+         </children></VBox>
+      <Text layoutX="50.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Project ID you want to delete:  ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID:  ">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="proID" layoutX="212.0" layoutY="154.0" prefHeight="26.0" prefWidth="141.0" promptText="Project ID" style="-fx-border-color: black;">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></TextField>
+      <Button layoutX="230.0" layoutY="210.0" mnemonicParsing="false" onAction="#onclickDelete" prefHeight="30.0" prefWidth="142.0" style="-fx-background-color: #6E260E;" text="Check &amp; Delete" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font></Button>
+      <Label fx:id="myDeleteLabel" layoutX="354.0" layoutY="255.0" prefHeight="72.0" prefWidth="226.0">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.FinalEventLayout">
+   <top>
+      <Pane prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #4A0404; -fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Final Event of TechExpo - Thank you for Participating !!!">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Text>
+         </children></Pane>
+   </top>
+   <left>
+      <Pane prefHeight="540.0" prefWidth="185.0" style="-fx-background-color: #C19A6B; -fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="438.0" prefWidth="186.0">
+               <children>
+                  <Button layoutX="15.0" layoutY="30.0" mnemonicParsing="false" onAction="#FINALS" prefHeight="49.0" prefWidth="192.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-color: #6E260E;" text="FINALS" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="202.0" mnemonicParsing="false" onAction="#VPD" prefHeight="49.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: #6E260E; -fx-border-radius: 5; -fx-border-width: 2;" text="VPD" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#RSS" prefHeight="53.0" prefWidth="186.0" style="-fx-border-color: black; -fx-background-color: #6E260E; -fx-border-radius: 5; -fx-border-width: 2;" text=" RSS &amp; AWP" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#VAP" prefHeight="50.0" prefWidth="192.0" style="-fx-border-color: black; -fx-background-color: #6E260E; -fx-border-radius: 5; -fx-border-width: 2;" text="VAP" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font></Button>
+                  <Button layoutX="10.0" layoutY="312.0" mnemonicParsing="false" onAction="#END" prefHeight="50.0" prefWidth="192.0" style="-fx-border-color: black; -fx-background-color: #6E260E; -fx-border-radius: 5; -fx-border-width: 2;" text="END!" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="35.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="1.0" layoutY="438.0" prefHeight="61.0" prefWidth="185.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Exit" prefHeight="50.0" prefWidth="194.0" style="-fx-border-color: black; -fx-background-color: #6E260E; -fx-border-width: 2; -fx-border-radius: 5;" text="EXIT" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin></Button>
+               </children></VBox>
+         </children></Pane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane fx:id="contentArea" prefHeight="338.0" prefWidth="445.0" style="-fx-background-color: #D2B48C; -fx-border-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

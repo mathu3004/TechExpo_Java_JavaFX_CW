@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="980.0" style="-fx-background-color: #D2B48C;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.WelcomeScreen">
+   <children>
+      <Button layoutX="105.0" layoutY="403.0" mnemonicParsing="false" onAction="#onClickSarah" prefHeight="100.0" prefWidth="185.0" style="-fx-background-color: #6E260E;" text="Hello Sarah!!!" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="684.0" layoutY="395.0" mnemonicParsing="false" onAction="#onClickParticipant" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #6E260E;" text="Hello Participant!!!" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font></Button>
+      <Pane prefHeight="336.0" prefWidth="980.0" style="-fx-background-color: #6E260E;">
+         <children>
+            <Label layoutX="151.0" layoutY="75.0" text="Welcome to TechExpo!!!" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="64.0" />
+               </font>
+            </Label>
+            <Label layoutX="231.0" layoutY="168.0" text="Glad to meet you all!!!" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="54.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="LoveIcon" fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutY="571.0" prefHeight="134.0" prefWidth="980.0" style="-fx-background-color: #6E260E;">
+         <children>
+            <Label layoutX="224.0" layoutY="37.0" text="Let's Start the Event!!!" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="54.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
