@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="652.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.VisualizingAwardWinningProjects">
+   <children>
+      <Pane layoutX="98.0" layoutY="22.0" prefHeight="50.0" prefWidth="590.0" style="-fx-border-color: black;">
+         <children>
+            <Text layoutX="115.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visualizing Award Winning Projects">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <BarChart fx:id="pointsBarChart" layoutX="54.0" layoutY="88.0" prefHeight="443.0" prefWidth="678.0" style="-fx-border-color: black; -fx-bar-fill: black;" title="Points">
+        <yAxis>
+          <CategoryAxis label="Project _Name, Country" prefHeight="333.0" prefWidth="152.0" side="LEFT">
+               <tickLabelFont>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </tickLabelFont>
+            </CategoryAxis>
+        </yAxis>
+        <xAxis>
+          <NumberAxis label="Points" layoutX="20.0" layoutY="100.0" prefHeight="56.0" prefWidth="460.0" upperBound="20.0">
+               <tickLabelFont>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </tickLabelFont>
+            </NumberAxis>
+        </xAxis>
+      </BarChart>
+   </children>
+   <padding>
+      <Insets left="15.0" top="15.0" />
+   </padding>
+</AnchorPane>

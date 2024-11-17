@@ -1,0 +1,13 @@
+.button {
+    -fx-background-color:  #6E260E;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: black;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: #6E260E;
+}

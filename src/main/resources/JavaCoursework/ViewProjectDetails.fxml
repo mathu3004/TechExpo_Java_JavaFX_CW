@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.ViewProjectDetails">
+   <children>
+      <VBox layoutX="5.0" layoutY="5.0" prefHeight="50.0" prefWidth="814.0">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="847.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="334.0" layoutY="33.0" stroke="#7b0202" strokeType="OUTSIDE" strokeWidth="0.0" text="View Project Details">
+                     <font>
+                        <Font name="Times New Roman Bold Italic" size="24.0" />
+                     </font>
+                  </Text>
+               </children></Pane>
+         </children></VBox>
+      <TableView fx:id="projectData" layoutX="5.0" layoutY="57.0" prefHeight="340.0" prefWidth="814.0" style="-fx-border-color: black;">
+        <columns>
+          <TableColumn fx:id="proID" prefWidth="75.0" text="Project ID" />
+          <TableColumn fx:id="proName" prefWidth="92.19998168945312" text="Project Name" />
+            <TableColumn fx:id="proCategory" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="proMembers" prefWidth="177.0" text="Team Members" />
+            <TableColumn fx:id="proCountry" prefWidth="96.80001831054688" text="Country" />
+            <TableColumn fx:id="proDescription" prefWidth="195.0" text="Brief Description" />
+            <TableColumn fx:id="teamLogo" prefWidth="84.0" text="Team Logo" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

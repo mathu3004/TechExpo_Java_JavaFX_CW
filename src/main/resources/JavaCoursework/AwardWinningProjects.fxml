@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.AwardWinningProjects">
+   <top>
+      <Pane prefHeight="89.0" prefWidth="871.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="137.0" layoutY="36.0" stroke="#9c0909" strokeType="OUTSIDE" strokeWidth="0.0" text="Random Spotlight Selection &amp; Award Winning Projects">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="354.0" layoutY="45.0" mnemonicParsing="false" onAction="#onClickJudgeScoring" style="-fx-background-color: #6E260E;" text="OnClickScore" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="16.0" />
+               </font></Button>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <TableView fx:id="projectData" prefHeight="350.0" prefWidth="629.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="place" prefWidth="75.0" sortable="false" text="Place" />
+          <TableColumn fx:id="proID" prefWidth="75.0" text="Project ID" />
+          <TableColumn fx:id="proName" prefWidth="93.20001220703125" text="Project Name" />
+            <TableColumn fx:id="proCategory" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="proMembers" prefWidth="121.20002746582031" text="Team Members" />
+            <TableColumn fx:id="proCountry" prefWidth="127.800048828125" text="Country" />
+            <TableColumn fx:id="proDescription" prefWidth="151.4000244140625" text="Brief Description" />
+            <TableColumn fx:id="judgesPoints" prefWidth="84.8000366210938" text="Points" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

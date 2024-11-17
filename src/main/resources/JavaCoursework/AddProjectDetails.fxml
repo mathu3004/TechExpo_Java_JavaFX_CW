@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="563.0" prefWidth="703.0" style="-fx-background-color: #D2B48C; -fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCoursework.AddProjectDetails">
+   <children>
+      <VBox layoutX="6.0" layoutY="7.0" prefHeight="543.0" prefWidth="692.0">
+         <children>
+            <Pane prefHeight="55.0" prefWidth="572.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="234.0" layoutY="35.0" stroke="#8e0000" strokeType="OUTSIDE" strokeWidth="0.0" text="Adding Project Details">
+                     <font>
+                        <Font name="Times New Roman Bold Italic" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Pane>
+            <HBox prefHeight="383.0" prefWidth="692.0">
+               <children>
+                  <VBox prefHeight="368.0" prefWidth="692.0">
+                     <children>
+                        <HBox prefHeight="32.0" prefWidth="310.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID:   ">
+                                 <font>
+                                    <Font name="Times New Roman" size="18.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="proID" prefHeight="26.0" prefWidth="194.0" promptText="Project ID" style="-fx-border-color: black;">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font></TextField>
+                              <Button mnemonicParsing="false" onAction="#onClickCheck" style="-fx-background-color: #6E260E;" text="Check" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="15.0" layoutY="15.0" prefHeight="32.0" prefWidth="310.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Project Name:  ">
+                                 <font>
+                                    <Font name="Times New Roman" size="18.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="proName" prefHeight="26.0" prefWidth="192.0" promptText="Project Name" style="-fx-border-color: black;">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font></TextField>
+                              <HBox prefHeight="32.0" prefWidth="395.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Category:  ">
+                                       <font>
+                                          <Font name="Times New Roman" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <ChoiceBox fx:id="proCategory" prefHeight="26.0" prefWidth="226.0" style="-fx-border-color: black;" />
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="32.0" prefWidth="310.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Country:  ">
+                                 <font>
+                                    <Font name="Times New Roman" size="18.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="proCountry" prefHeight="26.0" prefWidth="215.0" promptText="Country" style="-fx-border-color: black;">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font></TextField>
+                              <HBox prefHeight="32.0" prefWidth="370.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Team Members:  ">
+                                       <font>
+                                          <Font name="Times New Roman" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <TextField fx:id="proMembers" prefHeight="26.0" prefWidth="284.0" promptText="Team Members (3)" style="-fx-border-color: black;">
+                                       <font>
+                                          <Font name="Times New Roman" size="14.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="65.0" prefWidth="682.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Brief Description:  ">
+                                 <font>
+                                    <Font name="Times New Roman" size="18.0" />
+                                 </font>
+                              </Text>
+                              <TextArea fx:id="proDescription" prefHeight="67.0" prefWidth="200.0" promptText="Brief Description about your project." style="-fx-border-color: black;">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </TextArea>
+                              <HBox prefHeight="66.0" prefWidth="330.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Team Logo:  ">
+                                       <font>
+                                          <Font name="Times New Roman" size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <TextArea fx:id="logoTextView" prefHeight="66.0" prefWidth="259.0" promptText="Logo Url" style="-fx-border-color: black;">
+                                       <font>
+                                          <Font name="Times New Roman" size="14.0" />
+                                       </font>
+                                    </TextArea>
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="20.0" />
+                                 </HBox.margin>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Button layoutX="100.0" mnemonicParsing="false" onAction="#onClickBrowse" style="-fx-background-color: #6E260E;" text="Browse the Logo..." textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="500.0" top="10.0" />
+                           </VBox.margin>
+                        </Button>
+                        <ImageView fx:id="logoImageView" fitHeight="126.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets left="270.0" />
+                           </VBox.margin>
+                        </ImageView>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="37.0" prefWidth="692.0">
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #6E260E;" text="Submit" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="300.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="55.0" prefWidth="692.0">
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#onClickBack" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #6E260E;" text="Back" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="80.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
