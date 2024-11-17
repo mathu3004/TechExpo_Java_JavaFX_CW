@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da5b7c52-d8ad-47ed-8e23-6e7292be8fd6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2iYywPxXR71tc93qFdgWRev7ar5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddProjectDetailsTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TechExpoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.APDTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddProjectDetailsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddProjectDetailsTest.testAddValidProjectWithThreeMembers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddProjectDetailsTest.testOnClickAdd.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.AddProjectDetailsTest.testValidateProjectIDNotInteger.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddProjectDetailsTest.testValidateProjectID_InvalidID.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddProjectDetailsTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testBubbleSortPointsProjects.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testBubbleSortProjects.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testGetPlaceString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testIsProjectIDValid_withInvalidID.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testIsValidLogoUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testIsValidProjectID.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testIsValidRating.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testReadProjectsFromFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testSaveProjectsToTextFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testValidateAndFormatLogoUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testValidateAwardWinningProjects.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddValidatorTest.testValidateSelectedProjects.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AwardWinningProjectsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeleteProjectDetailsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainEventLayoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectValidatorTest.validateAndFormatProjectNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectValidatorTest.validateProjectIDTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RandomSpotlightSelectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StartTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StartTest.testIsCategoryNotEmpty_WhenCategoryIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UpdateProjectDetailsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidateTestsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidateTestsTest.testSaveProjectsToFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidateTestsTest.testSaveProjectsToFile_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ViewProjectDetailsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VisualizingAwardWinningProjectsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/Viva/Mathusha_2410212_20233136/CM1601_2410212_20233136&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaCoursework" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\CM1601_2410212_20233136\src\main\resources\JavaCoursework" />
+      <recent name="C:\Users\DELL\IdeaProjects\CM1601_2410212_20233136\src\main\resources" />
+      <recent name="C:\Users\DELL\IdeaProjects\CM1601_2410212_20233136\src\main\resources\Images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.cm1601_2410212_20233136" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="JavaCoursework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="JUnit" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TechExpoApplication">
+    <configuration name="TechExpoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCoursework.TechExpoApplication" />
+      <module name="CM1601_2410212_20233136" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCoursework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddValidatorTest.testValidateAwardWinningProjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CM1601_2410212_20233136" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCoursework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaCoursework" />
+      <option name="MAIN_CLASS_NAME" value="JavaCoursework.AddValidatorTest" />
+      <option name="METHOD_NAME" value="testValidateAwardWinningProjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddValidatorTest.testValidateSelectedProjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CM1601_2410212_20233136" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCoursework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaCoursework" />
+      <option name="MAIN_CLASS_NAME" value="JavaCoursework.AddValidatorTest" />
+      <option name="METHOD_NAME" value="testValidateSelectedProjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CM1601_2410212_20233136" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCoursework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaCoursework" />
+      <option name="MAIN_CLASS_NAME" value="JavaCoursework.StartTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartTest.testIsCategoryNotEmpty_WhenCategoryIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CM1601_2410212_20233136" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCoursework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JavaCoursework" />
+      <option name="MAIN_CLASS_NAME" value="JavaCoursework.StartTest" />
+      <option name="METHOD_NAME" value="testIsCategoryNotEmpty_WhenCategoryIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TechExpoApplication" />
+        <item itemvalue="JUnit.StartTest.testIsCategoryNotEmpty_WhenCategoryIsEmpty" />
+        <item itemvalue="JUnit.StartTest" />
+        <item itemvalue="JUnit.AddValidatorTest.testValidateAwardWinningProjects" />
+        <item itemvalue="JUnit.AddValidatorTest.testValidateSelectedProjects" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da5b7c52-d8ad-47ed-8e23-6e7292be8fd6" name="Changes" comment="" />
+      <created>1719682045068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719682045068</updated>
+      <workItem from="1719682046137" duration="1414000" />
+      <workItem from="1719683583762" duration="47000" />
+      <workItem from="1719684846515" duration="1832000" />
+      <workItem from="1719716892583" duration="22207000" />
+      <workItem from="1719749760835" duration="3367000" />
+      <workItem from="1719754925314" duration="13257000" />
+      <workItem from="1719805271666" duration="3224000" />
+      <workItem from="1719810263343" duration="4000" />
+      <workItem from="1719916413903" duration="33000" />
+      <workItem from="1720329576162" duration="12076000" />
+      <workItem from="1720352716216" duration="1642000" />
+      <workItem from="1720358715482" duration="677000" />
+      <workItem from="1720360017553" duration="14382000" />
+      <workItem from="1720410994328" duration="11761000" />
+      <workItem from="1720430939739" duration="3568000" />
+      <workItem from="1720435655178" duration="24397000" />
+      <workItem from="1720500071306" duration="148000" />
+      <workItem from="1720519926348" duration="5066000" />
+      <workItem from="1720527242311" duration="1108000" />
+      <workItem from="1720536188577" duration="19071000" />
+      <workItem from="1720576609583" duration="1223000" />
+      <workItem from="1720597331556" duration="8000" />
+      <workItem from="1720615436987" duration="18006000" />
+      <workItem from="1720696918932" duration="14848000" />
+      <workItem from="1720712316806" duration="48000" />
+      <workItem from="1720712409162" duration="10705000" />
+      <workItem from="1720753939826" duration="3729000" />
+      <workItem from="1720759058639" duration="11139000" />
+      <workItem from="1720789852904" duration="20706000" />
+      <workItem from="1720847495082" duration="20867000" />
+      <workItem from="1720876382878" duration="1180000" />
+      <workItem from="1720889549257" duration="3814000" />
+      <workItem from="1720898274110" duration="17000" />
+      <workItem from="1720930012206" duration="15082000" />
+      <workItem from="1720965273368" duration="15967000" />
+      <workItem from="1720984384381" duration="50000" />
+      <workItem from="1721104364753" duration="3983000" />
+      <workItem from="1721113037725" duration="83000" />
+      <workItem from="1721113251812" duration="243000" />
+      <workItem from="1721113879781" duration="228000" />
+      <workItem from="1721118958820" duration="8000" />
+      <workItem from="1721136138686" duration="1616000" />
+      <workItem from="1721137777672" duration="5982000" />
+      <workItem from="1721152169181" duration="88000" />
+      <workItem from="1721152269500" duration="191000" />
+      <workItem from="1721185025823" duration="135000" />
+      <workItem from="1721214629008" duration="172000" />
+      <workItem from="1721278737660" duration="1308000" />
+      <workItem from="1721311514027" duration="27000" />
+      <workItem from="1721367121324" duration="6823000" />
+      <workItem from="1721378112424" duration="5405000" />
+      <workItem from="1721386393862" duration="12829000" />
+      <workItem from="1721403663054" duration="2352000" />
+      <workItem from="1721407660007" duration="4671000" />
+      <workItem from="1721448345267" duration="12882000" />
+      <workItem from="1721471718244" duration="21609000" />
+      <workItem from="1721539144620" duration="12591000" />
+      <workItem from="1721568850734" duration="2782000" />
+      <workItem from="1721571813047" duration="3409000" />
+      <workItem from="1721575688397" duration="7056000" />
+      <workItem from="1721627998128" duration="16496000" />
+      <workItem from="1721644740465" duration="62000" />
+      <workItem from="1721647244317" duration="129000" />
+      <workItem from="1721647437119" duration="161000" />
+      <workItem from="1721649283434" duration="187000" />
+      <workItem from="1721713650291" duration="938000" />
+      <workItem from="1721714881756" duration="20000" />
+      <workItem from="1721715708660" duration="720000" />
+      <workItem from="1721720041439" duration="220000" />
+      <workItem from="1721723428612" duration="22362000" />
+      <workItem from="1721793667521" duration="529000" />
+      <workItem from="1721795384758" duration="355000" />
+      <workItem from="1721796437716" duration="386000" />
+      <workItem from="1721800921756" duration="12000" />
+      <workItem from="1721804326467" duration="11162000" />
+      <workItem from="1721823749564" duration="89000" />
+      <workItem from="1721823853818" duration="411000" />
+      <workItem from="1721834583173" duration="308000" />
+      <workItem from="1721841334590" duration="3037000" />
+      <workItem from="1721886562033" duration="9149000" />
+      <workItem from="1721899499086" duration="14661000" />
+      <workItem from="1721998813282" duration="718000" />
+      <workItem from="1722054338869" duration="220000" />
+      <workItem from="1722086834606" duration="2894000" />
+      <workItem from="1722092553163" duration="11000" />
+      <workItem from="1722142479441" duration="1438000" />
+      <workItem from="1722170922398" duration="755000" />
+      <workItem from="1723434056113" duration="900000" />
+      <workItem from="1723436712286" duration="356000" />
+      <workItem from="1723437152729" duration="216000" />
+      <workItem from="1723450511619" duration="434000" />
+      <workItem from="1731826124698" duration="6058000" />
+      <workItem from="1731847508566" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CM1601_2410212_20233136$APDTest.ic" NAME="APDTest Coverage Results" MODIFIED="1721402804311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/CM1601_2410212_20233136$AddProjectDetailsTest_testOnClickAdd.ic" NAME="AddProjectDetailsTest.testOnClickAdd Coverage Results" MODIFIED="1721402210366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>JavaCoursework.*</FILTER>
+    </SUITE>
+  </component>
+</project>
